@@ -30,7 +30,8 @@ twitter_username: sanghyunbak
 github_username:  sanghyunbak
 
 # Build settings
-theme: minima
+# theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
