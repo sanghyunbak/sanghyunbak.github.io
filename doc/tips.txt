@@ -1,0 +1,8 @@
+# gem install with dependencies
+sudo gem install jekyll-sass-converter -include-dependencies
+
+# dev with docker container
+docker pull jekyll/jekyll:4.2.0
+
+# docker run command
+docker run jekyll/jekyll:4.2.0 -name jekyll -v /Users/sanghyunbak/IdeaProjects/sanghyunbak.github.io:/work
